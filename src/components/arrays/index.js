@@ -1,0 +1,215 @@
+import PersonIcon from "@mui/icons-material/Person";
+import GroupsIcon from "@mui/icons-material/Groups";
+import GrassIcon from "@mui/icons-material/Grass";
+import WifiProtectedSetupIcon from "@mui/icons-material/WifiProtectedSetup";
+import ScoreIcon from "@mui/icons-material/Score";
+
+export const tabs = [
+  { name: "Players Performance", icon: <PersonIcon />, link: "/" },
+  {
+    name: "Team's Performance",
+    icon: <GroupsIcon />,
+    link: "/teamsPerformance",
+  },
+  { name: "Upcoming Matches", icon: <GrassIcon />, link: "/upcomingMmatches" },
+  { name: "Team Setup", icon: <WifiProtectedSetupIcon />, link: "/teamSetup" },
+  { name: "Detailed Scorecard", icon: <ScoreIcon />, link: "/scorecard" },
+];
+
+export const teamTabs = [
+  "En Fuego CF",
+  "Rush Hour",
+  "Hooligans FC",
+  "Inter Real Hustlers FC",
+  "Team Avengers",
+  "Amigos",
+  "Thunder",
+];
+
+export const player = [
+  {
+    name: "Marcel",
+    appearances: 21,
+    goals: 3,
+    assists: 5,
+    crossAccuracy: 36,
+    keyPasses: 2,
+    tackles: 1.9,
+  },
+  {
+    name: "Marcel",
+    appearances: 21,
+    goals: 3,
+    assists: 5,
+    crossAccuracy: 36,
+    keyPasses: 2,
+    tackles: 1.9,
+  },
+  {
+    name: "Marcel",
+    appearances: 21,
+    goals: 3,
+    assists: 5,
+    crossAccuracy: 36,
+    keyPasses: 2,
+    tackles: 1.9,
+  },
+  {
+    name: "Marcel",
+    appearances: 21,
+    goals: 3,
+    assists: 5,
+    crossAccuracy: 36,
+    keyPasses: 2,
+    tackles: 1.9,
+  },
+  {
+    name: "Marcel",
+    appearances: 21,
+    goals: 3,
+    assists: 5,
+    crossAccuracy: 36,
+    keyPasses: 2,
+    tackles: 1.9,
+  },
+  {
+    name: "Marcel",
+    appearances: 21,
+    goals: 3,
+    assists: 5,
+    crossAccuracy: 36,
+    keyPasses: 2,
+    tackles: 1.9,
+  },
+  {
+    name: "Marcel",
+    appearances: 21,
+    goals: 3,
+    assists: 5,
+    crossAccuracy: 36,
+    keyPasses: 2,
+    tackles: 1.9,
+  },
+  {
+    name: "Marcel",
+    appearances: 21,
+    goals: 3,
+    assists: 5,
+    crossAccuracy: 36,
+    keyPasses: 2,
+    tackles: 1.9,
+  },
+  {
+    name: "Marcel",
+    appearances: 21,
+    goals: 3,
+    assists: 5,
+    crossAccuracy: 36,
+    keyPasses: 2,
+    tackles: 1.9,
+  },
+  {
+    name: "Marcel",
+    appearances: 21,
+    goals: 3,
+    assists: 5,
+    crossAccuracy: 36,
+    keyPasses: 2,
+    tackles: 1.9,
+  },
+  {
+    name: "Marcel",
+    appearances: 21,
+    goals: 3,
+    assists: 5,
+    crossAccuracy: 36,
+    keyPasses: 2,
+    tackles: 1.9,
+  },
+];
+export const matchData = [
+  {
+    title: "En Fuego CF",
+    subtitle: "VS",
+    opponent: "Rush Hour",
+    date: "Mon, 5 September",
+    time: "04:00 PM",
+    venue: "Abcvs ayt",
+  },
+  {
+    title: "En Fuego CF",
+    subtitle: "VS",
+    opponent: "Rush Hour",
+    date: "Mon, 5 September",
+    time: "04:00 PM",
+    venue: "Abcvs ayt",
+  },
+  {
+    title: "En Fuego CF",
+    subtitle: "VS",
+    opponent: "Rush Hour",
+    date: "Mon, 5 September",
+    time: "04:00 PM",
+    venue: "Abcvs ayt",
+  },
+  {
+    title: "En Fuego CF",
+    subtitle: "VS",
+    opponent: "Rush Hour",
+    date: "Mon, 5 September",
+    time: "04:00 PM",
+    venue: "Abcvs ayt",
+  },
+];
+
+export const dScore = [
+  {
+    vs: "Rush Hour",
+    goalKeeperSave: 2,
+    highestScorer: "Ronaldo",
+    mostAssists: "Pique",
+    bestDefence: "Ronaldo",
+  },
+  {
+    vs: "Hooligans FC",
+    goalKeeperSave: 2,
+    highestScorer: "Ronaldo",
+    mostAssists: "Pique",
+    bestDefence: "Ronaldo",
+  },
+  {
+    vs: "Inter Real Hustlers FC",
+    goalKeeperSave: 2,
+    highestScorer: "Ronaldo",
+    mostAssists: "Pique",
+    bestDefence: "Ronaldo",
+  },
+  {
+    vs: "Real Hustlers",
+    goalKeeperSave: 2,
+    highestScorer: "Ronaldo",
+    mostAssists: "Pique",
+    bestDefence: "Ronaldo",
+  },
+  {
+    vs: "Avengars",
+    goalKeeperSave: 2,
+    highestScorer: "Ronaldo",
+    mostAssists: "Pique",
+    bestDefence: "Ronaldo",
+  },
+  {
+    vs: "Amigos",
+    goalKeeperSave: 2,
+    highestScorer: "Ronaldo",
+    mostAssists: "Pique",
+    bestDefence: "Ronaldo",
+  },
+  {
+    vs: "Thunder",
+    goalKeeperSave: 2,
+    highestScorer: "Ronaldo",
+    mostAssists: "Pique",
+    bestDefence: "Ronaldo",
+  },
+];
